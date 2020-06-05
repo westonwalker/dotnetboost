@@ -1,65 +1,26 @@
-# vscore README
+# dotnet boost
+Welcome to the dotnet boost extension for Visual Studio Code!
+Working with .NET Core in vscode can feel incomplete and overwhelming. Dotnet boost adds the missing pieces to supercharge your .NET Core workflow.
 
-This is the README for your extension "vscore". After writing up a brief description, we recommend including the following sections.
+![dotnetboostapp](https://user-images.githubusercontent.com/13759493/83833014-8ab82400-a6b0-11ea-97c3-62301be6a4e8.gif)
 
 ## Features
+Dotnet boost adds the following features inside VS Code:
+* Application scaffolding for Web, API, Console, and Blazor apps. Creates the main project, solution file, test project, and .gitignore custom made for .NET Core.
+* Project creation for the following project types: ASP.NET (Web and API), Blazor (web assembly and server), Console, XUnit, and Class Libraries.
+* File creation for common file types: Classes, Interfaces, Controllers, ApiControllers, Models, App.Config, appsettings.json, Razor Views, Razor Components.
+* Solution creation and the ability to add projects to a solution.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Using
+All dotnet boost commands can be accessed with ctrl+shift+p to open the command prompt. Type "dotnet boost" to see the full list of dotnet boost commands. Select a command and follow the on screen prompts.
 
-For example if there is an image subfolder under your extension project workspace:
+![dotnetboostitem](https://user-images.githubusercontent.com/13759493/83833016-8c81e780-a6b0-11ea-92ad-ba46683d4f06.gif)
 
-\!\[feature X\]\(images/feature-x.png\)
+## Requires
+For the best experience with dotnet boost, install [C# for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) and ensure .NET Core 3.0+ SDK is installed.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## License
+MIT License, refer to license file.
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+## Source
+[github repo](https://github.com/westonwalker/dotnetboost)

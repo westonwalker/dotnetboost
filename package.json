@@ -1,15 +1,16 @@
 {
 	"name": "dotnetboost",
 	"displayName": "dotnetboost",
-	"description": "Add additional functionality for your .NET Core projects in Visual Studio Code.",
+	"description": "Improves your .NET Core worflow and productivity in vscode with app scaffolding, file generation, and much more!",
 	"author": "Weston Walker",
+	"license": "MIT - See LICENSE.md for details.",
 	"publisher": "wwalker",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/TODO"
+		"url": "https://github.com/westonwalker/dotnetboost"
 	},
 	"icon": "icon.png",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.45.0"
 	},

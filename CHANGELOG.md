@@ -1,9 +1,5 @@
 # Change Log
 
-All notable changes to the "vscore" extension will be documented in this file.
+## [0.1.0]
+Initial release of dotnet boost to VSCode marketplace
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release of vscore
