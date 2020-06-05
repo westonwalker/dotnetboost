@@ -1,0 +1,17 @@
+using System;
+using System.ComponentModel.DataAnnotations;
+
+namespace ${namespace}
+{
+  public class ${classname}
+  {
+    public int Id { get; set; }
+
+    // Add more fields
+    
+    [DataType(DataType.Date)]
+    public DateTime CreatedDate { get; set; }
+    [DataType(DataType.Date)]
+    public DateTime UpdatedDate { get; set; } 
+  }
+}

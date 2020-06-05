@@ -1,0 +1,71 @@
+{
+	"name": "dotnetboost",
+	"displayName": "dotnetboost",
+	"description": "Add additional functionality for your .NET Core projects in Visual Studio Code.",
+	"author": "Weston Walker",
+	"publisher": "wwalker",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/TODO"
+	},
+	"icon": "icon.png",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.45.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:dotnet.new_app",
+		"onCommand:dotnet.add_project",
+		"onCommand:dotnet.generate",
+		"onCommand:dotnet.new_solution",
+		"onCommand:dotnet.add_projectssolution"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "dotnet.new_app",
+				"title": "dotnet boost new: Scaffold new .NET Core Application"
+			},
+			{
+				"command": "dotnet.add_project",
+				"title": "dotnet boost add: Create .NET Core Project"
+			},
+			{
+				"command": "dotnet.generate",
+				"title": "dotnet boost generate: Create a New Class, Interface, Controller, etc..."
+			},
+			{
+				"command": "dotnet.new_solution",
+				"title": "dotnet boost solution: Create .NET Core Solution File"
+			},
+			{
+				"command": "dotnet.add_projectssolution",
+				"title": "dotnet boost solution add projects: Add All Projects to a .NET Core Solution"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.45.0",
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^7.0.2",
+		"@types/node": "^13.11.0",
+		"eslint": "^6.8.0",
+		"glob": "^7.1.6",
+		"mocha": "^7.1.2",
+		"typescript": "^3.8.3",
+		"vscode-test": "^1.3.0"
+	},
+	"dependencies": {
+		"find-parent-dir": "^0.3.0",
+		"find-up-glob": "^1.0.0"
+	}
+}

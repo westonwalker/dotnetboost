@@ -1,0 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using ${modelnamespace};
+
+namespace ${namespace}
+{
+  public class {$classname}Context : DbContext
+  {
+    public {$classname}Context(DbContextOptions<{$classname}Context> options)
+        : base(options)
+    {
+    }
+
+    public DbSet<{$classname}> {$classname} { get; set; }
+  }
+}
