@@ -240,10 +240,20 @@ function createProject(args) {
 		})
 }
 function createSolution(args) {
-	commandLineOperation(args, commands.newSolution);
+	vscode.window.showInputBox({ ignoreFocusOut: true, prompt: commands.newSolution.prompt, value: commands.newSolution.placeholder })
+		.then((itemName) => {
+			const terminal = vscode.window.createTerminal(`${terminalName}`);
+			terminal.show();
+			commandLineOperation(args, commands.newSolution, terminal, itemName);
+		})
 }
 function addProjectsToSolution(args) {
-	commandLineOperation(args, commands.projectsToSolution);
+	vscode.window.showInputBox({ ignoreFocusOut: true, prompt: commands.projectsToSolution.prompt, value: commands.projectsToSolution.placeholder })
+		.then((itemName) => {
+			const terminal = vscode.window.createTerminal(`${terminalName}`);
+			terminal.show();
+			commandLineOperation(args, commands.projectsToSolution, terminal, itemName);
+		})
 }
 function commandLineOperation(args, command, terminal, itemName) {
 	if (args == null) {
@@ -372,21 +382,4 @@ function ensureTerminalExists() {
 		return false;
 	}
 	return true;
-}
-
-
-
-			// {
-			// 	"command": "dotnet.server",
-			// 	"title": "dotnet boost server: Start Localhost Server with Live Updates"
-			// }
-
-			// {
-			// 	"command": "dotnet.test",
-			// 	"title": "dotnet boost test: Run Unit Tests"
-			// }
-
-			// {
-			// 	"command": "dotnet.",
-			// 	"title": "dotnet boost test: Run Unit Tests"
-			// }
+} 

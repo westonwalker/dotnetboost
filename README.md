@@ -2,7 +2,7 @@
 Welcome to the dotnet boost extension for Visual Studio Code!
 Working with .NET Core in vscode can feel incomplete and overwhelming. Dotnet boost adds the missing pieces to supercharge your .NET Core workflow.
 
-![dotnetboostapp](https://user-images.githubusercontent.com/13759493/83833014-8ab82400-a6b0-11ea-97c3-62301be6a4e8.gif)
+![dotnetboostexample](https://user-images.githubusercontent.com/66449990/84216646-ca578500-aa8f-11ea-8e13-84ee47a58e82.gif)
 
 ## Features
 Dotnet boost adds the following features inside VS Code:
@@ -13,8 +13,6 @@ Dotnet boost adds the following features inside VS Code:
 
 ## Using
 All dotnet boost commands can be accessed with ctrl+shift+p to open the command prompt. Type "dotnet boost" to see the full list of dotnet boost commands. Select a command and follow the on screen prompts.
-
-![dotnetboostitem](https://user-images.githubusercontent.com/13759493/83833016-8c81e780-a6b0-11ea-92ad-ba46683d4f06.gif)
 
 ## Requires
 For the best experience with dotnet boost, install [C# for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) and ensure .NET Core 3.0+ SDK is installed.

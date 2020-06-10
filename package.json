@@ -1,6 +1,6 @@
 {
 	"name": "dotnetboost",
-	"displayName": "dotnetboost",
+	"displayName": "Dotnetboost",
 	"description": "Improves your .NET Core worflow and productivity in vscode with app scaffolding, file generation, and much more!",
 	"author": "Weston Walker",
 	"license": "MIT - See LICENSE.md for details.",
